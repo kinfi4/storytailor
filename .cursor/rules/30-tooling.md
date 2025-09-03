@@ -1,0 +1,21 @@
+## Tooling and commands
+
+- **Format**:
+  - Black: `make format` or `black --config pyproject.toml .`
+  - isort: `isort --settings-path setup.cfg .`
+- **Lint**: `make lint` (flake8 + wemake config in `src/setup.cfg`).
+- **Types**:
+  - Pyright: configured via `pyrightconfig.json` (pythonVersion 3.11, `src` in `extraPaths`).
+  - MyPy: `make mypy` with relaxed settings (`ignore_missing_imports=True`).
+- **Tests**:
+  - Unit: `make tests-unit`
+  - Integration: `make tests-integration`
+  - All + coverage: `make tests` then `make coverage`
+- **CI**: `make ci` runs format-check, lint, mypy, tests, coverage.
+- **Docker**:
+  - Use `docker-compose.yml` and `docker-compose.test.yml`. Ensure `deps-network` exists (created by `make prereq`).
+- **Conventions for assistants**:
+  - After edits, run lints/types/tests where feasible.
+  - Prefer absolute paths in commands per workspace policy.
+  - Do not change vendored packages unless explicitly requested.
+  - Do not fix unrelated lint/mypy issues; only address errors directly caused by your feature edits.

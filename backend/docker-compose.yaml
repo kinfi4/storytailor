@@ -1,0 +1,41 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URL=mongodb://mongo:27017
+      - MONGO_DB_NAME=story_tailer
+      - OLLAMA_URL=http://host.docker.internal:11434
+      - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5672//
+      - CELERY_RESULT_BACKEND=rpc://
+    volumes:
+      - ./app:/app/app
+    restart: unless-stopped
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - story-tailer-net
+
+  worker:
+    build: .
+    command: bash -lc "celery -A app.celery_app.celery worker --loglevel=INFO"
+    environment:
+      - MONGO_URL=mongodb://mongo:27017
+      - MONGO_DB_NAME=story_tailer
+      - OLLAMA_URL=http://host.docker.internal:11434
+      - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5672//
+      - CELERY_RESULT_BACKEND=rpc://
+    volumes:
+      - ./app:/app/app
+    depends_on:
+      - backend
+    restart: unless-stopped
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - story-tailer-net
+
+networks:
+  story-tailer-net:
+    external: true

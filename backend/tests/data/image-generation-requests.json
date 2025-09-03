@@ -1,0 +1,170 @@
+[
+  {
+    "imagePath": "data/images/1.jpg",
+    "request": {
+      "flavor": "fairy_tale",
+      "additionalContext": "Write about a tagged cow in an Alpine meadow discovering something unusual beneath the wildflowers.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/10.jpg",
+    "request": {
+      "flavor": "thriller",
+      "additionalContext": "Write about golden wildflowers swaying in warm evening light against dark green shadows.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/11.jpg",
+    "request": {
+      "flavor": "romance",
+      "additionalContext": "Write about a tiny red beetle navigating dewdrops on a morning leaf.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/12.jpg",
+    "request": {
+      "flavor": "science_fiction",
+      "additionalContext": "Write about a lone bird circling the ancient Colosseum at golden hour.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/13.jpg",
+    "request": {
+      "flavor": "fairy_tale",
+      "additionalContext": "Write about a young girl discovering something magical hidden behind ancient wooden doors.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/14.jpg",
+    "request": {
+      "flavor": "thriller",
+      "additionalContext": "Write about a hiker standing on a rock pillar, contemplating snow-capped mountains under gray skies.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/15.jpg",
+    "request": {
+      "flavor": "romance",
+      "additionalContext": "Write about dawn breaking over a misty alpine valley, revealing secrets hidden below.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/16.jpg",
+    "request": {
+      "flavor": "science_fiction",
+      "additionalContext": "Write about a Norwegian flag fluttering on a wooden deck overlooking majestic fjord mountains.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/17.jpg",
+    "request": {
+      "flavor": "fairy_tale",
+      "additionalContext": "Write about someone discovering a life-changing secret hidden within the pages they're reading.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/18.jpg",
+    "request": {
+      "flavor": "thriller",
+      "additionalContext": "Write about a solitary reindeer standing on a windswept hill beneath storm clouds.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/19.jpg",
+    "request": {
+      "flavor": "romance",
+      "additionalContext": "Write about a gray squirrel discovering something hidden in the rough bark crevices.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/2.jpg",
+    "request": {
+      "flavor": "science_fiction",
+      "additionalContext": "Write about a tourist who discovers a hidden message carved into Tower Bridge's ancient stones.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/20.png",
+    "request": {
+      "flavor": "fairy_tale",
+      "additionalContext": "Write about a child's balloon escaping on a pier while seagulls circle overhead.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/21.jpg",
+    "request": {
+      "flavor": "thriller",
+      "additionalContext": "Write about a solitary swimmer confronting towering waves that threaten to overwhelm them.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/3.jpg",
+    "request": {
+      "flavor": "romance",
+      "additionalContext": "Write about a hairless cat with luminous ears sitting by a window, radiating quiet mystery.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/4.jpg",
+    "request": {
+      "flavor": "science_fiction",
+      "additionalContext": "Write about a blue-eyed kitten discovering something fascinating just beyond the doorway.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/5.jpg",
+    "request": {
+      "flavor": "fairy_tale",
+      "additionalContext": "Write about two curious cats with golden eyes secretly watching from behind a doorway.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/6.jpg",
+    "request": {
+      "flavor": "thriller",
+      "additionalContext": "Write about a farmer discovering something unexpected while harvesting golden wheat fields at dawn.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/7.jpg",
+    "request": {
+      "flavor": "romance",
+      "additionalContext": "Write about a dancer who discovers something hidden beneath the glowing nightclub floor.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/8.jpg",
+    "request": {
+      "flavor": "science_fiction",
+      "additionalContext": "Write about a tourist who discovers a hidden secret while gazing up at the Eiffel Tower.",
+      "eightingPlusEnabled": false
+    }
+  },
+  {
+    "imagePath": "data/images/9.jpg",
+    "request": {
+      "flavor": "fairy_tale",
+      "additionalContext": "Write about a woman in black discovering her true power beneath dramatic shadows.",
+      "eightingPlusEnabled": false
+    }
+  }
+]

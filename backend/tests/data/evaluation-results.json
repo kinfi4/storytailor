@@ -1,0 +1,338 @@
+[
+  {
+    "image_id": "11",
+    "image_path": "data/images/11.jpg",
+    "additionalContext": "Write about a tiny red beetle navigating dewdrops on a morning leaf.",
+    "story_word_count": 494,
+    "grounded": {
+      "grounded_to_image": 5,
+      "grounded_to_context": 5,
+      "explanation": "The story perfectly captures the image's red beetle on a green leaf with dewdrops and follows the user's instructions to write about a tiny red beetle navigating dewdrops on a morning leaf."
+    },
+    "quality": {
+      "coherence": 5,
+      "readability": 5,
+      "justification": "The story maintains perfect internal logic following the beetle's natural journey through morning dew while employing beautiful, clear prose that flows seamlessly from one observation to the next."
+    }
+  },
+  {
+    "image_id": "7",
+    "image_path": "data/images/7.jpg",
+    "additionalContext": "Write about a dancer who discovers something hidden beneath the glowing nightclub floor.",
+    "story_word_count": 444,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 5,
+      "explanation": "The story effectively incorporates the nightclub's visual elements (neon lights, mirrors, reflective surfaces, blue and red lighting) and follows the user's instruction to write about a dancer discovering something beneath the glowing floor, though some details like wooden surfaces deviate from the modern club setting shown."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story has strong atmosphere and logical progression from dance floor to hidden room to journal discovery, though some descriptions could be more concise for better flow."
+    }
+  },
+  {
+    "image_id": "13",
+    "image_path": "data/images/13.jpg",
+    "additionalContext": "Write about a young girl discovering something magical hidden behind ancient wooden doors.",
+    "story_word_count": 547,
+    "grounded": {
+      "grounded_to_image": 3,
+      "grounded_to_context": 4,
+      "explanation": "The story incorporates the image's wooden doors and young girl but adds elaborate fantasy elements (magical garden, fountain, underground library) not visible in the simple doorway scene, while faithfully following the user's instruction for a magical discovery behind ancient doors."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story follows a clear magical discovery narrative with good pacing and vivid descriptions, though it ends abruptly mid-sentence and has some minor inconsistencies in the magical elements' presentation."
+    }
+  },
+  {
+    "image_id": "17",
+    "image_path": "data/images/17.jpg",
+    "additionalContext": "Write about someone discovering a life-changing secret hidden within the pages they're reading.",
+    "story_word_count": 525,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 5,
+      "explanation": "The story excellently incorporates the key visual elements from the image (glasses on an open book, reading context) and perfectly fulfills the user's instruction to write about discovering a life-changing secret hidden within pages being read."
+    },
+    "quality": {
+      "coherence": 3,
+      "readability": 4,
+      "justification": "The story has good atmosphere and flow but ends abruptly mid-sentence, creating confusion about the resolution and leaving the narrative incomplete."
+    }
+  },
+  {
+    "image_id": "14",
+    "image_path": "data/images/14.jpg",
+    "additionalContext": "Write about a hiker standing on a rock pillar, contemplating snow-capped mountains under gray skies.",
+    "story_word_count": 386,
+    "grounded": {
+      "grounded_to_image": 5,
+      "grounded_to_context": 4,
+      "explanation": "The story excellently captures the visual elements in the image (hiker on rock pillar, snow-capped mountains, gray sky, forest below) and follows the user's instructions well, though it adds significant narrative depth beyond the basic contemplation request."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story maintains clear narrative focus on Sarah's introspective mountain journey with consistent themes and smooth, descriptive prose that effectively conveys both the physical setting and internal transformation."
+    }
+  },
+  {
+    "image_id": "10",
+    "image_path": "data/images/10.jpg",
+    "additionalContext": "Write about golden wildflowers swaying in warm evening light against dark green shadows.",
+    "story_word_count": 413,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 2,
+      "explanation": "The story accurately describes golden wildflowers with warm evening light and dark shadows as shown in the image, but adds extensive fictional elements like a hiker, mysterious grove, and otherworldly secrets that go far beyond the simple instruction to write about wildflowers swaying in evening light."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story maintains consistent narrative flow with clear progression from discovery to mystery, though the ending feels slightly abrupt and could benefit from more resolution."
+    }
+  },
+  {
+    "image_id": "16",
+    "image_path": "data/images/16.jpg",
+    "additionalContext": "Write about a Norwegian flag fluttering on a wooden deck overlooking majestic fjord mountains.",
+    "story_word_count": 474,
+    "grounded": {
+      "grounded_to_image": 2,
+      "grounded_to_context": 4,
+      "explanation": "The story accurately describes the Norwegian flag and wooden deck setting from the user instructions, but contains a major factual error about the flag's design (describing it as \"blue background with a white cross\" when it's actually red with a blue cross outlined in white as shown in the image)."
+    },
+    "quality": {
+      "coherence": 2,
+      "readability": 4,
+      "justification": "The story has good descriptive writing and flows well, but contains a major factual error (Norwegian flag description is incorrect) and some narrative inconsistencies that undermine coherence."
+    }
+  },
+  {
+    "image_id": "4",
+    "image_path": "data/images/4.jpg",
+    "additionalContext": "Write about a blue-eyed kitten discovering something fascinating just beyond the doorway.",
+    "story_word_count": 358,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 5,
+      "explanation": "The story accurately describes the kitten's blue eyes, white and brown coat, and indoor setting visible in the image, and perfectly follows the user's instruction to write about a blue-eyed kitten discovering something fascinating beyond a doorway."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "Well-structured narrative following a kitten's journey from comfort to curiosity with consistent character motivation, though the ending feels slightly vague about what specifically awaits beyond the doorway."
+    }
+  },
+  {
+    "image_id": "12",
+    "image_path": "data/images/12.jpg",
+    "additionalContext": "Write about a lone bird circling the ancient Colosseum at golden hour.",
+    "story_word_count": 270,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 5,
+      "explanation": "The story excellently incorporates the user's instructions about a lone bird at the Colosseum during golden hour, and accurately describes the ancient Roman architecture visible in the image, though it adds some creative details about the bird's specific actions that aren't directly observable in the photograph."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 5,
+      "justification": "The story maintains strong narrative coherence with its focused theme of a bird at the Colosseum symbolizing nature's endurance, though some descriptive elements could be more tightly connected; the prose is exceptionally readable with beautiful, flowing language and vivid imagery."
+    }
+  },
+  {
+    "image_id": "19",
+    "image_path": "data/images/19.jpg",
+    "additionalContext": "Write about a gray squirrel discovering something hidden in the rough bark crevices.",
+    "story_word_count": 470,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 3,
+      "explanation": "The story accurately depicts a gray squirrel in a tree matching the image, but adds fictional elements like a metal disc and human interaction not present in the visual, while following the core instruction to write about discovery in bark crevices."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 5,
+      "justification": "The story flows beautifully with vivid descriptions and maintains logical progression, though the ending has a minor inconsistency about who keeps the disc."
+    }
+  },
+  {
+    "image_id": "2",
+    "image_path": "data/images/2.jpg",
+    "additionalContext": "Write about a tourist who discovers a hidden message carved into Tower Bridge's ancient stones.",
+    "story_word_count": 422,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 4,
+      "explanation": "The story accurately describes Tower Bridge's visual elements (stone towers, Thames River, iconic architecture) matching the image, and follows the user's instruction to write about a tourist discovering hidden messages in the bridge's stones, though it adds elaborate Latin inscriptions not specified in the prompt."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story follows a logical progression from discovery to research to revelation, with smooth transitions and clear character motivation, though some historical details could be more precisely integrated."
+    }
+  },
+  {
+    "image_id": "5",
+    "image_path": "data/images/5.jpg",
+    "additionalContext": "Write about two curious cats with golden eyes secretly watching from behind a doorway.",
+    "story_word_count": 398,
+    "grounded": {
+      "grounded_to_image": 5,
+      "grounded_to_context": 4,
+      "explanation": "The story excellently captures the image's key elements of two cats (one black, one white) with golden eyes peering from behind a doorway, and strongly follows the user's instructions about curious cats secretly watching, though it adds extensive narrative details beyond what was requested."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story maintains consistent narrative logic with two cats observing mysterious happenings, uses vivid descriptive language that flows well, though some transitions between scenes could be smoother."
+    }
+  },
+  {
+    "image_id": "21",
+    "image_path": "data/images/21.jpg",
+    "additionalContext": "Write about a solitary swimmer confronting towering waves that threaten to overwhelm them.",
+    "story_word_count": 521,
+    "grounded": {
+      "grounded_to_image": 3,
+      "grounded_to_context": 4,
+      "explanation": "The story captures the ocean waves and swimmer from the image but adds many elements not visible (female swimmer named Elara, cliffs, storm clouds, goggles) while the user instructions about confronting towering waves are well addressed through the dramatic narrative of struggle against overwhelming ocean forces."
+    },
+    "quality": {
+      "coherence": 3,
+      "readability": 4,
+      "justification": "The story has vivid, engaging prose but contains inconsistencies (character positioning, unclear swimming mechanics) and an abrupt ending that undermines narrative coherence."
+    }
+  },
+  {
+    "image_id": "18",
+    "image_path": "data/images/18.jpg",
+    "additionalContext": "Write about a solitary reindeer standing on a windswept hill beneath storm clouds.",
+    "story_word_count": 318,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 5,
+      "explanation": "The story excellently captures the user's instruction to write about a solitary reindeer on a windswept hill beneath storm clouds, and accurately describes most visual elements from the image including the lone reindeer, hill setting, and cloudy sky, though it adds dramatic elements like lightning and sounds not visible in the static photograph."
+    },
+    "quality": {
+      "coherence": 3,
+      "readability": 4,
+      "justification": "The story has vivid atmospheric descriptions and flows well, but suffers from inconsistent pronoun usage (switching between \"it,\" \"its,\" and \"her\" for the reindeer) and lacks clear narrative purpose or resolution."
+    }
+  },
+  {
+    "image_id": "15",
+    "image_path": "data/images/15.jpg",
+    "additionalContext": "Write about dawn breaking over a misty alpine valley, revealing secrets hidden below.",
+    "story_word_count": 422,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 3,
+      "explanation": "The story accurately captures the alpine valley setting with mist, mountains, and autumn colors visible in the image, but adds fictional elements like a wolf howling and specific details not shown, while adequately addressing the dawn and mist themes from the user instructions."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "This is a well-crafted descriptive piece that maintains consistent imagery and perspective throughout, with smooth transitions between scenes and vivid, accessible prose that flows naturally from dawn to full daylight."
+    }
+  },
+  {
+    "image_id": "1",
+    "image_path": "data/images/1.jpg",
+    "additionalContext": "Write about a tagged cow in an Alpine meadow discovering something unusual beneath the wildflowers.",
+    "story_word_count": 449,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 5,
+      "explanation": "The story accurately describes the brown and white cow with ear tags in an Alpine meadow setting with mountains and wildflowers as shown in the image, and perfectly follows the user's instruction to write about a tagged cow discovering something unusual beneath wildflowers."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story maintains consistent narrative logic with Tag's discovery and the magical whistle bringing cows together, though some minor inconsistencies exist (like cows blowing a whistle), while the prose flows clearly with vivid descriptions that create an engaging pastoral scene."
+    }
+  },
+  {
+    "image_id": "20",
+    "image_path": "data/images/20.png",
+    "additionalContext": "Write about a child's balloon escaping on a pier while seagulls circle overhead.",
+    "story_word_count": 387,
+    "grounded": {
+      "grounded_to_image": 3,
+      "grounded_to_context": 4,
+      "explanation": "The story accurately depicts the adult-child relationship and pink balloon from the image but misses key visual elements like the specific pier setting with stairs/railings, while successfully incorporating the user's requested elements of balloon escape and seagulls."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story follows a clear narrative arc from balloon loss to creative solution, with vivid sensory details and smooth transitions, though some minor inconsistencies exist (like the seagull eating paper origami)."
+    }
+  },
+  {
+    "image_id": "3",
+    "image_path": "data/images/3.jpg",
+    "additionalContext": "Write about a hairless cat with luminous ears sitting by a window, radiating quiet mystery.",
+    "story_word_count": 284,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 3,
+      "explanation": "The story accurately describes a hairless cat and captures the mysterious atmosphere requested, but contains several details not visible in the image (window, garden, children) and contradicts the hairless nature by mentioning fur being ruffled."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story maintains a consistent contemplative atmosphere and descriptive focus, though there are minor inconsistencies (hairless cat having fur, winter sun but morning light) that slightly impact logical flow."
+    }
+  },
+  {
+    "image_id": "6",
+    "image_path": "data/images/6.jpg",
+    "additionalContext": "Write about a farmer discovering something unexpected while harvesting golden wheat fields at dawn.",
+    "story_word_count": 390,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 4,
+      "explanation": "The story accurately depicts key visual elements from the image (combine harvester, golden wheat fields, rural farming setting) and follows the user's instruction to write about a farmer discovering something unexpected while harvesting at dawn, though it adds fictional elements like the mysterious dark stalks not visible in the photo."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story maintains good narrative consistency with Elena's discovery and reaction, though some descriptive passages feel slightly repetitive; the prose flows well with clear, engaging language throughout."
+    }
+  },
+  {
+    "image_id": "8",
+    "image_path": "data/images/8.jpg",
+    "additionalContext": "Write about a tourist who discovers a hidden secret while gazing up at the Eiffel Tower.",
+    "story_word_count": 474,
+    "grounded": {
+      "grounded_to_image": 4,
+      "grounded_to_context": 5,
+      "explanation": "The story accurately describes visual elements from the image including the Eiffel Tower, Seine River with boats, blue sky with clouds, and surrounding trees, but adds fictional underground chambers not visible in the photo, while perfectly fulfilling the user's request for a tourist discovering a hidden secret while gazing at the tower."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story maintains strong narrative flow with vivid descriptions and logical progression from tourist attraction to hidden discovery, though the premise of finding secret chambers beneath the Eiffel Tower strains believability."
+    }
+  },
+  {
+    "image_id": "9",
+    "image_path": "data/images/9.jpg",
+    "additionalContext": "Write about a woman in black discovering her true power beneath dramatic shadows.",
+    "story_word_count": 359,
+    "grounded": {
+      "grounded_to_image": 3,
+      "grounded_to_context": 4,
+      "explanation": "The story incorporates the woman in black and dramatic shadows from the user instructions, but adds fictional elements like an urban setting, magical amulet, and supernatural powers that aren't visible in the portrait image showing an elegantly posed woman in black clothing."
+    },
+    "quality": {
+      "coherence": 4,
+      "readability": 4,
+      "justification": "The story maintains consistent narrative flow with clear character development from mysterious figure to empowered individual, though some metaphorical elements could be more precisely defined."
+    }
+  }
+]

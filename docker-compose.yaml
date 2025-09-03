@@ -1,0 +1,47 @@
+services:
+
+  mongo:
+    image: mongo:7.0
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=story_tailer
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    networks:
+      - story-tailer-net
+
+  mongo-express:
+    image: mongo-express:1.0.0
+    ports:
+      - "8081:8081"
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=admin
+    depends_on:
+      - mongo
+    restart: unless-stopped
+    networks:
+      - story-tailer-net
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    restart: unless-stopped
+    networks:
+      - story-tailer-net
+
+volumes:
+  mongo_data:
+ 
+networks:
+  story-tailer-net:
+    external: true
+    name: story-tailer-net
