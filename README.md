@@ -1,15 +1,15 @@
 ## Story Tailer
 
-A small proof‑of‑concept where you upload an image and get back a short story with generated narration. It’s not trying to be perfect—just enough to show the flow end‑to‑end and a bit of taste in the details.
+A small proof‑of‑concept where you upload an image and get back a short story with generated narration. It’s not trying to be perfect - just enough to show the flow end‑to‑end and a bit of taste in the details.
 
 ### Screenshots
 
 ![Create a story](docs/create-story.png)
-
+</br>
 ![Generation in progress](docs/generation%20in%20progress.png)
-
+</br>
 ![Completed story](docs/completed%20story.png)
-
+</br>
 ![Archive](docs/archive.png)
 
 ### What’s inside
@@ -43,7 +43,6 @@ make run
 - Frontend: [http://localhost:5173](http://localhost:5173)
 - Backend (OpenAPI): [http://localhost:8000/docs](http://localhost:8000/docs)
 - Mongo Express: [http://localhost:8081](http://localhost:8081)
-- RabbitMQ UI: [http://localhost:15672](http://localhost:15672) (guest/guest)
 
 Useful:
 
@@ -63,10 +62,6 @@ make down   # stop everything
 - LangChain’s `ChatOllama` talks to Ollama for both VLM (image + text) and text‑only prompts.
 - Piper TTS downloads an English voice in the backend image and outputs narration.
 - Assets (images/audio) are stored on disk; metadata and status live in MongoDB.
-
-## License
-
-MIT — see `LICENSE`.
 
 ----
 @kinfi4
