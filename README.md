@@ -4,13 +4,10 @@ A small proof‑of‑concept where you upload an image and get back a short stor
 
 ### Screenshots
 
-![Create a story](docs/create-story.png)
-</br>
-![Generation in progress](docs/generation%20in%20progress.png)
-</br>
-![Completed story](docs/completed%20story.png)
-</br>
-![Archive](docs/archive.png)
+![Create a story](docs/create-story.png) <br><br>
+![Generation in progress](docs/generation%20in%20progress.png) <br><br>
+![Completed story](docs/completed%20story.png) <br><br>
+![Archive](docs/archive.png) <br><br>
 
 ### What’s inside
 
